@@ -16,4 +16,4 @@ sorted_hero = sorted(intelligence_heroes, key=intelligence_heroes.get, reverse=T
 
 if __name__ == '__main__':
     print(f'Самый сильный супергерой это: {sorted_hero[0]}, '
-          f'который имеет силу {intelligence_heroes["Thanos"]}')
+          f'который имеет силу {intelligence_heroes[sorted_hero[0]]}')
